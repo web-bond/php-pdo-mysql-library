@@ -18,12 +18,10 @@ $db = new mPDO(DB_HOSTNAME, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
 Methods of library
 -----------
 ```php
-<?php
 $db->query($sql) // Execute the specified sql statement. Returns row data and rowcount.
 $db->escape($value) // Escape/clean data before entering it into database
 $db->countAffected($sql) // Returns count of affected rows from most recent query execution
 $db->getLastId($sql) // Returns last auto-increment id from more recent query execution 
-?>
 ```
 
 Usage
