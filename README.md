@@ -92,7 +92,7 @@ object(stdClass)#4 (3) {
 
 #### For example
 ```php
-$query = $db->query("SELECT * FROM `customer` WHERE `id` = '2'");
+$query = $db->query("SELECT * FROM `customer` WHERE `name` LIKE 'John'");
 if ($query->rows) {
     var_dump($query->row['email']); // string(14) "john@gmail.com"
 }
