@@ -100,6 +100,6 @@ if ($query->rows) {
 }
 ```
 ```php
-$db->query("UPDATE `customer` SET `email` = 'john-new-email@gmail.com' WHERE `id` = '2'");
+$db->query("UPDATE `customer` SET `email` = escape('john-new-email@gmail.com') WHERE `id` = '2'");
 ```
 
