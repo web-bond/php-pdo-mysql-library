@@ -1,6 +1,6 @@
 PHP PDO MySQL Library
 ============
-PHP PDO MySQL Library is a library from CMS Opencart
+PHP PDO MySQL Library is a db library from CMS Opencart
 
 Initialize
 ------------
